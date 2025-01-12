@@ -2,7 +2,7 @@
 const os = require('os');
 
 const getOSName = () => {
-  return os.EOL();
+  return os.EOL;
 }
 
 const getFreeMemory = () => {
