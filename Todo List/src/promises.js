@@ -15,7 +15,7 @@ getAllTodos = () => {
 const createTodo = (todo) => {
     return new Promise((resolve, reject) => {
         if (!todo || !todo.id || !todo.title) {
-            reject(new Error('No data to be added'));
+            reject('No data to be added');
         } else {
             todolist.push(todo);
             resolve(todo);

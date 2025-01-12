@@ -31,7 +31,7 @@ describe('createTodo rejected', () => {
             })
             .then(result => {throw new Error('No data')})
             .catch((err)=>{
-                expect(err.message).to.equal('No data to be added')
+                expect(err).to.equal('No data to be added')
                 done();
             })
     })
