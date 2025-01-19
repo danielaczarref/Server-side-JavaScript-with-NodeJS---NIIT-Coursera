@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/testCalc.js"
+    "test": "mocha tests/asyncTestCalc.js"
   },
   "keywords": [],
   "author": "",
